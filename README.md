@@ -1,2 +1,2 @@
 # DSA
-work with some traditional Data Structure and Algorithm
+some traditional Data Structure and Algorithm
