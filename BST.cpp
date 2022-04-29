@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 typedef struct s{
 	int data;
 	struct s* left;
@@ -25,6 +26,7 @@ int main(){
 	return 0;
 	
 }
+// node creation
 Node* create(Node* newnode){
 	newnode=(Node*)malloc(sizeof(Node));
 	printf("Enter data to your node");
