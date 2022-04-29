@@ -41,6 +41,7 @@ float max_profit(float[],float[],float[],int ,float );
  void sort(float price[],float weigh[],float ratio[],int n){
  	
  	int i ,j,t1,t2,t3;
+	 //applying bubble sort algo to sort them according to price weight ratio in decending order
  	for (i=0;i<n;i++){
  		
  		for (j=0;j<n-i-1;j++){
@@ -76,7 +77,7 @@ float max_profit(float[],float[],float[],int ,float );
  			w=w-weigh[i];
 		 }
 		else if (weigh[i]>w){
-			
+			// if the remaing weight is less than weight of the object we will have a fractional portin of it
 			s=s+ ratio[i]*w;
 			w=0;
 		}
