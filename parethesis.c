@@ -79,7 +79,7 @@ char pop(char arr[],int top){
 	char x;
 	int i;
 	if(top==-1){
-		printf("stack is underflow\n");
+		printf("stack is underflow \n");
 	}
 	else{
 		x=arr[top];
@@ -95,10 +95,10 @@ int check(char c1,char c2){
 	if(c1=='{' && c2=='}'){
 		return 1;
 	}
-	else if(c1=='['&& c2==']'){
+	else if(c1=='[' && c2==']'){
 		return 1;
 	}
-	else if(c1=='('&&c2==')'){
+	else if(c1=='(' && c2==')' ){
 		return 1;
 }
 	else{
